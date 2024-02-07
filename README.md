@@ -1,1 +1,3 @@
-# react_native_snippets
+### React Native Code Snippets
+
+* Initial commits include nuances of TypeScript over JavaScript
