@@ -1,0 +1,67 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/index.css" />
+		<title>Create New Menu Item</title>
+	</head>
+	<body>
+		<nav>
+			<h1>Create New Burger</h1>
+			<a href="/" class="btn">Back to Menu</a>
+		</nav>
+
+		<main class="wrap">
+			<form class="create">
+				<!-- burger title -->
+				<label for="title">
+					<span>Title:</span>
+					<input type="text" name="title" required />
+				</label>
+
+				<!-- burger description -->
+				<label for="description">
+					<span>Description:</span>
+					<textarea name="description" required></textarea>
+				</label>
+
+				<!-- burger add-ons -->
+				<fieldset>
+					<legend>Choose add-ons:</legend>
+					<label>
+						<input type="checkbox" name="add_ons" value="onions" />
+						<span>onions</span>
+					</label>
+					<label>
+						<input type="checkbox" name="add_ons" value="coleslaw" />
+						<span>coleslaw</span>
+					</label>
+					<label>
+						<input type="checkbox" name="add_ons" value="cheese" />
+						<span>cheese</span>
+					</label>
+					<label>
+						<input type="checkbox" name="add_ons" value="tomatoes" />
+						<span>tomatoes</span>
+					</label>
+					<label>
+						<input type="checkbox" name="add_ons" value="peppers" />
+						<span>peppers</span>
+					</label>
+				</fieldset>
+
+				<!-- pizza price -->
+				<label for="price">
+					<span>Price:</span>
+					<input type="number" name="price" required />
+				</label>
+
+				<button>Create!</button>
+			</form>
+		</main>
+
+    <!-- link typescipt to this html so that parcel build tool can process the typescript files-->
+    <script src="ts/create.ts" type="module"></script>
+</body>
+	</body>
+</html>

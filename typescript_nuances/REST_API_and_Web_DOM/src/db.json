@@ -1,0 +1,45 @@
+{
+  "burgers": [
+    {
+      "title": "Instaburger with cheese",
+      "description": "An extra cheesy burger",
+      "add_ons": [
+        "cheese",
+        "tomatoes"
+      ],
+      "price": 90,
+      "id": "1"
+    },
+    {
+      "title": "Salad Special",
+      "description": "Peppers and coleslaw for those who are health conscious.",
+      "add_ons": [
+        "coleslaw",
+        "tomatoes"
+      ],
+      "price": 30,
+      "id": "2"
+    },
+    {
+      "title": "Spicy Instaburger",
+      "description": "Burger for Indians and Indonesians.",
+      "add_ons": [
+        "onions",
+        "pepper"
+      ],
+      "price": 60,
+      "id": "3"
+    },
+    {
+      "id": "ffca",
+      "title": "Chicken Burger",
+      "description": "A burger with chicken patty.",
+      "add_ons": [
+        "onions",
+        "coleslaw",
+        "tomatoes"
+      ],
+      "price": 30
+    }
+  ]
+}
