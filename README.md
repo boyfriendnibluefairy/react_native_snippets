@@ -1,3 +1,5 @@
-### React Native Code Snippets
+### Contents
 
-* Initial commits include nuances of TypeScript over JavaScript
+* Nuances of TypeScript over JavaScript
+* How to use TypeScript to edit Document Object Model (DOM)
+* How to use TypeScript to access REST APIs
